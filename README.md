@@ -1,11 +1,18 @@
 # Turtle_Bridge-Java
 **Turtle Bridge** is a simple 2D game where you control a character delivering packages across a river, jumping on turtles while avoiding falling into the water.
 
+## Technologies
+- Java 23
+- Swing (GUI)
+- IntelliJ IDEA
+
 ## Features
 - Control a character delivering packages.
 - Jump on turtles to cross the river.
-- Event-driven system for game actions (StartEvent, ResetEvent, PlusOneEvent).
-- Score tracking and GUI display.
+- **Event-driven** system for game actions (StartEvent, ResetEvent, PlusOneEvent).
+- Simplified MVC pattern.
+- Thread-based game loop - `GameLoop` class.
+- **Custom seven segment digit** score display component.
 
 ## How to Play
 1. Open `Main.java` in your IDE and run the program.
